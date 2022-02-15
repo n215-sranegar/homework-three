@@ -1,0 +1,48 @@
+header {
+  width: $banner-footer-width;
+  height: 500px;
+  background-image: linear-gradient(
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: -80px auto 0 auto;
+
+  h1 {
+    font-family: ProximaNova;
+    font-size: 60px;
+    color: $site-white;
+    padding-top: 172px;
+    padding-left: 553px;
+  }
+
+  p {
+    width: 420px;
+    margin-left: 430px;
+    text-align: center;
+    font-family: GillSans;
+    color: $site-white;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  button {
+    background-color: $site-blue;
+    width: 121.62px;
+    height: 40px;
+    border: none;
+    color: $site-white;
+    margin-top: 48px;
+    margin-left: 574.7px;
+    font-family: GillSans;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}

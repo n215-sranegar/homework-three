@@ -1,0 +1,114 @@
+.form-content {
+  max-width: $home-form-width;
+  margin: $center;
+  // background-color: rgb(180, 150, 155);
+
+  h2 {
+    color: $site-black;
+    font-family: ProximaNova;
+    letter-spacing: 0.6px;
+    font-size: 60px;
+  }
+
+  .top-row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .long-box {
+      width: 434px;
+    }
+
+    input {
+      width: 344px;
+      height: 58px;
+      border: 2px solid $site-blue;
+      padding-left: 10px;
+      font-family: GillSansLight;
+    }
+  }
+
+  .middle-row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      font-family: GillSansLight;
+      font-size: 18px;
+    }
+
+    input {
+      width: 698px;
+      height: 58px;
+      border: 2px solid $site-blue;
+      padding-left: 10px;
+      font-family: GillSansLight;
+      padding: 0px 10px;
+    }
+  }
+
+  .room {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      font-family: GillSansLight;
+      font-size: 18px;
+    }
+
+    select {
+      width: 103px;
+      height: 58px;
+      border: 2px solid $site-blue;
+      padding-left: 10px;
+      font-family: GillSansLight;
+    }
+
+    select:hover {
+      cursor: pointer;
+    }
+
+    .adult {
+      margin-left: 11px;
+    }
+  }
+
+  .message {
+    margin-top: 20px;
+
+    textarea {
+      width: $home-form-width;
+      height: 192px;
+      border: 2px solid $site-blue;
+      padding: 10px 0px 0px 10px;
+      font-family: GillSansLight;
+      resize: none;
+    }
+  }
+
+  .button-wrapper {
+    margin-top: 20px;
+
+    button {
+      width: $home-form-width;
+      background-color: $site-blue;
+      height: 60.59px;
+      border: none;
+      color: white;
+      font-family: GillSans;
+      font-size: 15px;
+      text-transform: uppercase;
+      border-radius: 30px;
+      margin-bottom: 100px;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}

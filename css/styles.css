@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+}
+nav .links a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 15px;
+  color: #fff;
+  font-family: GillSans;
+  letter-spacing: 1px;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 19.5px;
+}
+
+header {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: -80px auto 0 auto;
+}
+header h1 {
+  font-family: ProximaNova;
+  font-size: 60px;
+  color: #fff;
+  padding-top: 172px;
+  padding-left: 553px;
+}
+header p {
+  width: 420px;
+  margin-left: 430px;
+  text-align: center;
+  font-family: GillSans;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+}
+header button {
+  background-color: #79addc;
+  width: 121.62px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  margin-top: 48px;
+  margin-left: 574.7px;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+header button:hover {
+  cursor: pointer;
+}
+
+.form-content {
+  max-width: 818px;
+  margin: 0 auto;
+}
+.form-content h2 {
+  color: #000;
+  font-family: ProximaNova;
+  letter-spacing: 0.6px;
+  font-size: 60px;
+}
+.form-content .top-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .top-row .long-box {
+  width: 434px;
+}
+.form-content .top-row input {
+  width: 344px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+}
+.form-content .middle-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .middle-row label {
+  font-family: GillSansLight;
+  font-size: 18px;
+}
+.form-content .middle-row input {
+  width: 698px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+  padding: 0px 10px;
+}
+.form-content .room {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .room label {
+  font-family: GillSansLight;
+  font-size: 18px;
+}
+.form-content .room select {
+  width: 103px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+}
+.form-content .room select:hover {
+  cursor: pointer;
+}
+.form-content .room .adult {
+  margin-left: 11px;
+}
+.form-content .message {
+  margin-top: 20px;
+}
+.form-content .message textarea {
+  width: 818px;
+  height: 192px;
+  border: 2px solid #79addc;
+  padding: 10px 0px 0px 10px;
+  font-family: GillSansLight;
+  resize: none;
+}
+.form-content .button-wrapper {
+  margin-top: 20px;
+}
+.form-content .button-wrapper button {
+  width: 818px;
+  background-color: #79addc;
+  height: 60.59px;
+  border: none;
+  color: white;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.form-content .button-wrapper button:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+}
+footer .footer-wrapper {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+footer .footer-wrapper .copyright {
+  padding-top: 15px;
+}
+footer .footer-wrapper .copyright p {
+  font-family: GillSans;
+  font-size: 12px;
+  color: #fff;
+}
+footer .footer-wrapper .social i {
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+}
+footer .footer-wrapper .social i:hover {
+  cursor: pointer;
+}
+
+.tours {
+  width: 818px;
+  height: 304px;
+  margin: 0 auto;
+  margin-top: -45px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tours .box {
+  height: 304px;
+  width: 236px;
+  background-color: #dadada;
+}
+.tours .left {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours .middle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours .right {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours h2 {
+  text-align: center;
+  font-family: ProximaNova;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-top: 47px;
+}
+.tours h3 {
+  text-align: center;
+  font-family: ProximaNova;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+.tours button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 35px 52px;
+}
+.tours button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

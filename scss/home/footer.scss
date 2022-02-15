@@ -1,0 +1,38 @@
+footer {
+  margin: $center;
+  width: $banner-footer-width;
+  height: 100px;
+  background-color: $site-blue;
+
+  .footer-wrapper {
+    width: $site-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    margin: $center;
+    // background-color: purple;
+
+    .copyright {
+      padding-top: 15px;
+
+      p {
+        font-family: GillSans;
+        font-size: 12px;
+        color: $site-white;
+      }
+    }
+
+    .social {
+      i {
+        font-size: 22px;
+        color: $site-white;
+        margin-left: 22px;
+      }
+
+      i:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

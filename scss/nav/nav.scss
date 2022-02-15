@@ -1,0 +1,35 @@
+nav {
+    max-width: $site-width;
+    height: 80px;
+    // background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $site-white;
+    position: relative;
+    z-index: 99;
+
+
+    .logo {
+        width: 92px;
+        height: 42px;
+    }
+
+    .links {
+
+        a {
+            text-decoration: none;
+            text-transform: lowercase;
+            font-size: 15px;
+            color: $site-white; 
+            font-family: GillSans;
+            letter-spacing: 1px;
+        }
+
+        span {
+            color: $site-blue;
+            margin: 0 19.5px;
+        }
+    }
+}
